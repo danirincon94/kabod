@@ -1,0 +1,54 @@
+@font-face {
+  src: url(../fonts/Montserrat-Bold.ttf);
+  font-family: Montserrat-Regular;
+}
+
+body {
+  font-family: Montserrat-Regular;
+}
+
+.video {
+  position: relative;
+  background-color: black;
+  height: 84vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.bg-dark {
+  background-color: #191919 !important;
+}
+
+.navbar .navbar-nav{
+  margin: 0 auto;
+  font-size: 15px;
+}
+
+.btn-primary {
+  background-color: #4A4862 !important;
+  border-color: #4A4862 !important;
+}
+
+
+.seccion1{
+  height: 100vh;
+  background-color: #F3EFF5;
+}
+
+
